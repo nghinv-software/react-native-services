@@ -4,20 +4,11 @@
  */
 
 import React from 'react';
-import equals from 'react-fast-compare';
 import WrapLoadingView from '@nghinv/react-native-loading/libs/WrapLoadingView';
 import WrapAlertView from '@nghinv/react-native-alert/lib/WrapAlertView';
 import WrapActionSheetView from '@nghinv/react-native-action-sheet/lib/WrapActionSheetView';
 import WrapBottomSheetView from '@nghinv/react-native-bottom-sheet/lib/WrapBottomSheetView';
 import WrapDropdownAlertView from '@nghinv/react-native-dropdown-alert/lib/WrapDropdownAlertView';
-
-interface ServicesProviderType {
-  actionSheetProps: Object;
-  bottomSheetProps: Object;
-  alertProps: Object;
-  dropdownAlertProps: Object;
-  loadingProps: Object;
-}
 
 const Services = {
   Loading: null,
@@ -27,7 +18,7 @@ const Services = {
   DropdownAlert: null,
 }
 
-function ServicesProvider(props: ServicesProviderType) {
+function ServicesProvider(props) {
   const {
     actionSheetProps,
     bottomSheetProps,
@@ -67,7 +58,7 @@ function ServicesProvider(props: ServicesProviderType) {
   );
 }
 
-export default React.memo(ComponentServices, equals);
+export default React.memo(ServicesProvider);
 
 export {
   Services,

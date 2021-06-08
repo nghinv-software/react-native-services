@@ -2,25 +2,30 @@
   "name": "@nghinv/react-native-services",
   "version": "1.0.0",
   "description": "react native services",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "eslint -c index.js tests/*.js --fix"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nghinv-software/eslint-config.git"
+    "url": "https://github.com/nghinv-software/react-native-services.git"
   },
   "keywords": [
-    "eslint",
-    "eslint-config",
+    "react native services",
+    "services",
+    "action sheet",
+    "bottom sheet",
+    "loading",
+    "dropdown alert",
     "nghinv"
   ],
   "author": "nghinv",
   "license": "MIT",
+  "types": "react-native-services.d.ts",
   "bugs": {
-    "url": "https://github.com/nghinv-software/eslint-config/issues"
+    "url": "https://github.com/nghinv-software/react-native-services/issues"
   },
-  "homepage": "https://github.com/nghinv-software/eslint-config#readme",
+  "homepage": "https://github.com/nghinv-software/react-native-services#readme",
   "publishConfig": {
     "access": "public",
     "cache": "~/.npm",
