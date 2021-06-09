@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-services",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react native services",
   "main": "src/index.js",
   "scripts": {
@@ -35,11 +35,11 @@
     "eslint": "^7.0.0"
   },
   "dependencies": {
-    "@nghinv/react-native-loading": "^1.0.3",
-    "@nghinv/react-native-alert": "^1.0.3",
-    "@nghinv/react-native-dropdown-alert": "^1.0.1",
-    "@nghinv/react-native-bottom-sheet": "^1.0.5",
-    "@nghinv/react-native-action-sheet": "^1.0.5",
+    "@nghinv/react-native-loading": ">=1.0.3",
+    "@nghinv/react-native-alert": ">=1.0.4",
+    "@nghinv/react-native-dropdown-alert": ">=1.0.3",
+    "@nghinv/react-native-bottom-sheet": ">=1.0.6",
+    "@nghinv/react-native-action-sheet": ">=1.0.6",
     "@nghinv/react-native-icons": "^1.0.4",
     "react-native-safe-area-context": "*",
     "react-native-vector-icons": "*",
