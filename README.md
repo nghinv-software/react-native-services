@@ -60,7 +60,7 @@ npm install @nghinv/react-native-services
   ...
 ```
 
-2. Use `Spinner.show()` and `Spinner.hide()`
+2. Use `Services.Loading.show()`, `Services.Alert.alert({})`...
 
 ```javascript
 import React from 'react';

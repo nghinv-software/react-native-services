@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-services",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react native services",
   "main": "src/index.js",
   "scripts": {
