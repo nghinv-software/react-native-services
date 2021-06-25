@@ -1,5 +1,11 @@
 # @nghinv/react-native-services
 
+---
+
+[![Version][version-badge]][package]
+[![MIT License][license-badge]][license]
+[![All Contributors][all-contributors-badge]][all-contributors]
+
 # Installation
 
 ## Installing the package
@@ -142,3 +148,10 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+[version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-services.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@nghinv/react-native-services
+[license-badge]: https://img.shields.io/npm/l/@nghinv/react-native-services.svg?style=flat-square
+[license]: https://opensource.org/licenses/MIT
+[all-contributors-badge]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
+[all-contributors]: #contributors
