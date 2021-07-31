@@ -22,6 +22,11 @@ yarn add @nghinv/react-native-services
 npm install @nghinv/react-native-services
 ```
 
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated react-native-safe-area-context @nghinv/react-native-icons @nghinv/react-native-loading @nghinv/react-native-alert @nghinv/react-native-dropdown-alert @nghinv/react-native-bottom-sheet @nghinv/react-native-action-sheet 
+```
+
 * Dependencies 
 
 	- [@nghinv/react-native-loading](https://github.com/nghinv-software/react-native-loading.git)
@@ -148,6 +153,11 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-services.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-services

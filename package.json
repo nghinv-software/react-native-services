@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-services",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "react native services",
   "main": "src/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   "devDependencies": {
     "eslint": "^7.0.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@nghinv/react-native-loading": ">=1.0.3",
     "@nghinv/react-native-alert": ">=1.0.6",
     "@nghinv/react-native-dropdown-alert": ">=1.0.3",
@@ -44,7 +44,9 @@
     "react-native-safe-area-context": "*",
     "react-native-vector-icons": "*",
     "react-native-gesture-handler": "*",
-    "react-native-reanimated": ">=2.0.0-rc.0",
+    "react-native-reanimated": ">=2.0.0-rc.0"
+  },
+  "dependencies": {
     "react-fast-compare": "*"
   }
 }
