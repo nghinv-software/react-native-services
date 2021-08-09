@@ -24,7 +24,7 @@ npm install @nghinv/react-native-services
 
 
 ```sh
-yarn add react-native-gesture-handler react-native-reanimated react-native-safe-area-context @nghinv/react-native-icons @nghinv/react-native-loading @nghinv/react-native-alert @nghinv/react-native-dropdown-alert @nghinv/react-native-bottom-sheet @nghinv/react-native-action-sheet 
+yarn add react-native-gesture-handler react-native-reanimated react-native-safe-area-context
 ```
 
 * Dependencies 

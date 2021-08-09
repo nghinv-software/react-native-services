@@ -1,6 +1,6 @@
 {
   "name": "@nghinv/react-native-services",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "react native services",
   "main": "src/index.js",
   "scripts": {
@@ -27,26 +27,26 @@
   },
   "homepage": "https://github.com/nghinv-software/react-native-services#readme",
   "publishConfig": {
-    "access": "public",
-    "cache": "~/.npm",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "devDependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "3.3.0"
   },
   "peerDependencies": {
-    "@nghinv/react-native-loading": ">=1.0.3",
-    "@nghinv/react-native-alert": ">=1.0.6",
-    "@nghinv/react-native-dropdown-alert": ">=1.0.3",
-    "@nghinv/react-native-bottom-sheet": ">=1.0.8",
-    "@nghinv/react-native-action-sheet": ">=1.0.6",
-    "@nghinv/react-native-icons": ">=1.0.5",
     "react-native-safe-area-context": "*",
-    "react-native-vector-icons": "*",
     "react-native-gesture-handler": "*",
     "react-native-reanimated": ">=2.0.0-rc.0"
   },
   "dependencies": {
-    "react-fast-compare": "*"
+    "react-fast-compare": "*",
+    "@nghinv/react-native-icons": ">=1.0.6",
+    "@nghinv/react-native-loading": ">=1.0.3",
+    "@nghinv/react-native-alert": ">=1.0.8",
+    "@nghinv/react-native-dropdown-alert": ">=1.0.6",
+    "@nghinv/react-native-bottom-sheet": ">=1.1.1",
+    "@nghinv/react-native-action-sheet": ">=1.0.8"
   }
 }
